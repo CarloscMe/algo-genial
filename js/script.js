@@ -1,9 +1,9 @@
-/*const numero1 = prompt("ingresa el primer numero");  // en si funciona pero solo me toma el valor inicial y no la cifra 
+/*const numero1 = parseInt(prompt("ingresa el primer numero")); // como la entrada es number el programa esta completado //
 
-const numero2 = prompt("ingresa el segundo numero");
+const numero2 = parseInt(prompt("ingresa el segundo numero"));
 
 if(numero1 > numero2){
-   alert( `el numero mayor es: ${numero1}. `);
+   alert( `el numero mayor es: ${numero1}. `); 
 }
 
 else if(numero2 > numero1){
@@ -13,7 +13,6 @@ else if(numero2 > numero1){
 else{
     alert("tu numero es igual asi mismo");
 }*/
-
 
 // con un metodo de array puedo recorrerlo y los numero que no aparezcan son impar en si tengo que repasar los metodos//
 
@@ -27,17 +26,29 @@ for( i= 0; i < 20; i += 2 ){
     }
 }*/
 
-
-/*const edad = prompt("ingresa tu edad");
+/*const edad = parseInt(prompt("ingresa tu edad"));
 
 if (edad >= 18 && edad <= 100) {
-    alert(`tienes ${edad} eres mayor de edad. `)
+  alert(`tienes ${edad} eres mayor de edad. `);
+} else {
+  alert("no puedes pasar");
+}*/
+
+/*const entrada3 = parseInt(prompt("ingresa tu numero"));
+
+const dato1 = Math.random()*100;
+
+const dato2 = Math.round(dato1);
+
+if (entrada3 == dato2 ) {
+    console.log(dato2)
 }
 
+else if (entrada3 > 100){
+    console.log("debe ser hasta 100")
+ }
  else{
-    alert("no puedes pasar")
+    alert("intentarlo")
  }*/
-
-
 
 
