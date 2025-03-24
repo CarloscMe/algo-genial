@@ -14,17 +14,16 @@ else{
     alert("tu numero es igual asi mismo");
 }*/
 
-// con un metodo de array puedo recorrerlo y los numero que no aparezcan son impar en si tengo que repasar los metodos//
+/*const entrada = parseInt(prompt("ingresa un numero"));
 
-/*const entrada = prompt("ingresa un numero");
+if (entrada % 2 == 0){
+  console.log(`el numero ${entrada} es par. `)
+}
 
-let i;
-for( i= 0; i < 20; i += 2 ){
-
-    if(entrada == i){
-        alert(`el numero: ${entrada} es par. `);
-    }
+else if( entrada % 2 != 0){
+  console.log(`el numero ${entrada} es impar. `)
 }*/
+
 
 /*const edad = parseInt(prompt("ingresa tu edad"));
 
@@ -51,4 +50,24 @@ else if (entrada3 > 100){
     alert("intentarlo")
  }*/
 
+
+const titulo1 = document.querySelector("#titulo-1");
+
+const titulo2 = document.querySelector("#titulo-2");
+
+const titulo3 = document.querySelector("#titulo-3");
+
+const texto = document.querySelector(".texto");
+
+titulo1.addEventListener("click", () =>{
+    texto.innerText = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, pariatur quas. Id, quos eaque. Molestiae rerum architecto in modi sequi numquam, quos laborum! Magni vel voluptate veniam dicta, neque laborum?"
+});
+
+titulo2.addEventListener("click", () =>{
+  texto.innerText = "xd";
+})
+
+titulo3.addEventListener("click", () =>{
+  texto.innerText = "xdggggggggggggggg";
+})
 

@@ -8,3 +8,50 @@
     text-decoration: none;
     list-style: none;
 }
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+main{
+    width: 100%;
+    min-height: 50dvh;
+    background: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.cuadro{
+    position: relative;
+    padding: 40px;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.titulo{
+    background-color: rgba(232, 241, 104, 0.781);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.titulo__item{
+    padding: 5px;
+}
+
+.cuadro__item {
+    margin-top: 5px;
+    width: 100%;
+    min-height: 10dvh;
+}
