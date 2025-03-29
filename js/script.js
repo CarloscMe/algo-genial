@@ -51,7 +51,7 @@ else if (entrada3 > 100){
  }*/
 
 
-const titulo1 = document.querySelector("#titulo-1");
+/*const titulo1 = document.querySelector("#titulo-1");
 
 const titulo2 = document.querySelector("#titulo-2");
 
@@ -69,5 +69,44 @@ titulo2.addEventListener("click", () =>{
 
 titulo3.addEventListener("click", () =>{
   texto.innerText = "xdggggggggggggggg";
-})
+})*/
 
+const input = document.querySelector("#input");
+
+const texto = document.querySelector(".salida");
+
+const mandar = document.querySelector("#mandar");
+
+mandar.addEventListener("click", () =>{
+
+  let edad = 0; 
+
+  let añoActual = new Date().getFullYear();  /* en si hay 2 opciones tomar el numero decimal y se vuelve entero o si el numero es decimal alertar*/
+
+  edad = parseInt(input.value);
+
+  let resultado = añoActual - edad;
+
+  alert(typeof(edad) + edad);
+  Math.floor(edad);
+ 
+   if(edad){
+     
+       if (input.value >= 1 && input.value <= 122) {
+      
+         texto.innerText = `nacistes en el año ${resultado}. `;
+         input.value = '';
+        
+       }
+       
+       else{
+        alert("esta no es una edad comun")
+       }
+
+   }
+   else{
+    alert("ingresa tu edad");
+   }
+
+
+});
