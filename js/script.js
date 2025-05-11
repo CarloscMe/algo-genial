@@ -51,25 +51,29 @@ else if (entrada3 > 100){
  }*/
 
 
-/*const titulo1 = document.querySelector("#titulo-1");
+const titulo1 = document.querySelector("#titulo-1");
 
 const titulo2 = document.querySelector("#titulo-2");
 
 const titulo3 = document.querySelector("#titulo-3");
 
-const texto = document.querySelector(".texto");
+const textos = document.querySelector(".texto");
+
+let info = "hola chapapapapapapapapa"
+
+textos.textContent = info;
 
 titulo1.addEventListener("click", () =>{
-    texto.innerText = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, pariatur quas. Id, quos eaque. Molestiae rerum architecto in modi sequi numquam, quos laborum! Magni vel voluptate veniam dicta, neque laborum?"
+    textos.innerText = info;
 });
 
 titulo2.addEventListener("click", () =>{
-  texto.innerText = "xd";
+  textos.innerText = "xd";
 })
 
 titulo3.addEventListener("click", () =>{
-  texto.innerText = "xdggggggggggggggg";
-})*/
+  textos.innerText = "xdggggggggggggggg";
+})
 
 const input = document.querySelector("#input");
 
@@ -87,7 +91,7 @@ mandar.addEventListener("click", () =>{
 
   let resultado = añoActual - edad;
 
-  alert(typeof(edad) + edad);
+ /* alert(typeof(edad) + edad);*/
   Math.floor(edad);
  
    if(edad){
